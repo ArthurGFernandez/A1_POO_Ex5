@@ -11,7 +11,7 @@ public class Main {
         ArrayList<Editora> listEditora = new ArrayList<>();
         ArrayList<Livros> listLivros = new ArrayList<>();
 
-        System.out.print("Quantos Editoras deseja adicionar? ");
+        System.out.print("Quantas editoras deseja adicionar? ");
         int n = sc.nextInt();
 
         for(int i = 0; i < n; i ++){
@@ -36,7 +36,7 @@ public class Main {
         }
 
 
-        System.out.print("Quantos livros deseja adicionar? ");
+        System.out.print("\nQuantos livros deseja adicionar? ");
         n = sc.nextInt();
         sc.nextLine();
 
@@ -66,7 +66,7 @@ public class Main {
 
         i = 0;
         for(Livros livros1 : listLivros){
-            System.out.println("\nEsta é o " + (i+1) + "º livro da lista.");
+            System.out.println("\nEste é o " + (i+1) + "º livro da lista.");
             System.out.println("Titulo: " + livros1.getTitulo());
             System.out.println("Autor: " + livros1.getAutor());
             System.out.println("Ano do livro: " + livros1.getAno());
