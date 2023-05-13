@@ -11,7 +11,7 @@ public class Main {
         ArrayList<Editora> listEditora = new ArrayList<>();
         ArrayList<Livros> listLivros = new ArrayList<>();
 
-        System.out.print("Quantos Editores deseja adicionar? ");
+        System.out.print("Quantos Editoras deseja adicionar? ");
         int n = sc.nextInt();
 
         for(int i = 0; i < n; i ++){
